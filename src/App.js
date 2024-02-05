@@ -1,14 +1,10 @@
-import './App.css';
-import About from './components/About';
-import Home from './components/Home';
-import Testimonal from './components/Testimonal';
+import React from 'react';
+import Routes from "./routes";
 
-function App() {
+function App(props) {
     return (
-        <div className="App">
-            <Home/>
-            <About/>    
-            <Testimonal/>
+        <div>
+            <Routes/>
         </div>
     );
 }
